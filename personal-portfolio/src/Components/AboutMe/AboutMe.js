@@ -3,7 +3,7 @@ import './AboutMe.css'
 function AboutMe() {
   let aboutMe = (
     <div className="aboutMe">
-      <h1>About Me</h1>
+      <h1><span className="number">0.1</span> About Me</h1>
       <p className="intro">
         Hey! My name is Rober Lopez and I'm currently located in San Diego,
         California. I'm a decorated transitioning service member with five years

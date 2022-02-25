@@ -1,0 +1,22 @@
+// Colors
+$bg-color: #171717;
+$dot-color: rgb(80, 74, 74);
+$transparantLeft-color: transparent;
+
+// Dimensions
+$dot-size: 1px;
+$dot-space: 30px;
+
+body {
+  background: linear-gradient(
+        90deg,
+        $bg-color ($dot-space - $dot-size),
+        transparent 1%
+      )
+      center,
+    linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+    $dot-color;
+  background-size: $dot-space $dot-space;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}

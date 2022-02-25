@@ -16,9 +16,23 @@ function App() {
       <header>
         <nav>
           <ul>
-            <li><span className="number">0.1</span> about me</li>
-            <li><span className="number">0.2</span> projects</li>
-            <li><span className="number">0.3</span> contact</li>
+          <li id="resumeButton">
+          <a href="https://www.linkedin.com/in/robert-t-lopez/">
+          <img
+              src={require(
+                "/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/business-contact-icon-256.png"
+              )}
+             
+            
+              width="50"
+              height="50"
+              alt=""
+            />
+          </a>
+        </li>
+            <li className="mainNavBar"><span className="number">0.1</span><a href="#aboutMe"> about me</a></li>
+            <li className="mainNavBar"><span className="number">0.2</span><a href="#projects"> projects</a></li>
+            <li className="mainNavBar"><span className="number">0.3</span><a href="#contact"> contact</a></li>
           </ul>
         </nav>
       </header>
@@ -29,8 +43,11 @@ function App() {
             <Route path="/" element={<Home />} />
           </Routes>
         </main>
+        <a name="aboutMe"></a>
         {<AboutMe />}
+        <a name="projects"></a>
         {<Projects />}
+        <a name="contact"></a>
         {<Contact />}
         {<SocailMenu />}
       </div>

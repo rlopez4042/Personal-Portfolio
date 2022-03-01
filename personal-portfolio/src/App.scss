@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo&family=Inter:wght@500&family=Roboto+Mono&family=Roboto:wght@100;300;400;500;700&family=Ropa+Sans&display=swap");
+
 // Colors
 $bg-color: #171717;
 $dot-color: rgb(80, 74, 74);
@@ -19,4 +21,472 @@ body {
   background-size: $dot-space $dot-space;
   font-family: "Roboto", sans-serif;
   color: white;
+}
+#bg 
+{	
+	position:fixed;
+	background: cover;
+  background: linear-gradient(145deg, #171717 50%, #313131 115%);
+  width: 100%;
+  height: 100%;
+	margin: 0;
+  padding: 0;
+  z-index: -2;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #ff5733;
+}
+header {
+  padding: 0px 40px;
+  // background-color: black;
+  height: 8rem;
+  align-items: center;
+  position: relative;
+  z-index: 102;
+  position: sticky;
+}
+nav {
+  display: flex;
+  float: right;
+  height: 8rem;
+  align-items: center;
+  // position: sticky;
+}
+span {
+  color: #ff5733;
+  padding-right: 1rem;
+}
+
+/* --------------------------------------------------------- General Styling --------------------------------------------------------- */
+
+/* Styling for the main navbar */
+.mainNavBar {
+  display: inline;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+/* Accent Lines on the right */
+.accentLineRight {
+  border-left: 3px solid #ff5733;
+  height: 130px;
+  position: fixed;
+  bottom: 0;
+  right: 55px;
+}
+/* Accent Lines on the left */
+.accentLineLeft {
+  border-left: 3px solid #ff5733;
+  height: 130px;
+  position: fixed;
+  bottom: 0;
+  left: 55px;
+}
+/* Text box for my email on the left side */
+.emailLink {
+  letter-spacing: 0.4rem;
+  color: #ff5733;
+  position: fixed;
+  height: 20px;
+  bottom: 320px;
+  left: -90px;
+  transform: rotate(-90deg);
+}
+/* Placement for the accented list of social icons */
+.socialIconList {
+  position: fixed;
+  bottom: 8rem;
+  right: 31.5px;
+  margin: 0px;
+  padding: 0px;
+}
+/* Styles for each logo on the right side */
+.socialIcons {
+  padding-bottom: 4em;
+}
+
+/* --------------------------------------------------------- Styling for the Home Component --------------------------------------------------------- */
+
+/* General settings for the main Home component */
+.home {
+  min-height: 100vh;
+}
+/* Style the first box */
+.slimShady {
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+  margin: 0;
+}
+/* Style my name! */
+.name {
+  font-size: 6rem;
+  color: #ff5733;
+  margin: 0;
+}
+/* Style the tagline(find a better one) */
+.tagline {
+  font-size: 3rem;
+  margin: 0;
+  // max-width: 730px;
+}
+/* Stlye the summary (also make a better one) */
+.summary {
+  font-size: 1rem;
+  line-height: 25px;
+  // max-width: 540px;
+  color: rgb(153, 152, 152);
+}
+
+/* --------------------------------------------------------- Setting for the About Me Component --------------------------------------------------------- */
+
+/* Create some columns one for the image and the other for some text */
+.aboutMeColumn {
+  float: left;
+  width: 50%;
+}
+/* Place the columns side by side */
+.left {
+  width: 200px;
+}
+/* Clear floats after the columns */
+.aboutMeColumnRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Settings for the picture of me */
+.pictureOfMe {
+  filter: blur(5px);
+  float: left;
+  margin: 2rem;
+}
+
+/* Settings for the intro section, next to the picture of me */
+
+.intro,
+.body,
+.ending {
+  font-size: 1rem;
+  line-height: 30px;
+  color: rgb(153, 152, 152);
+}
+/* Settings for the product logos, HTML JSS etc. */
+.aboutMeLogo {
+  display: inline;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3rem;
+}
+/* Add some padding between the paragraphs and the logos */
+.aboutMeLogoList {
+  padding-top: 3rem;
+}
+
+/* --------------------------------------------------------- Styling for the Project Component --------------------------------------------------------- */
+
+.rowProject {
+  padding-bottom: 55px;
+  max-width: 260px;
+  /* text-align: center; */
+}
+/* Create some columns one for the image and the other for some text */
+.projectColumn {
+  float: left;
+  width: 50%;
+}
+/* Place the columns side by side */
+.projectLeft {
+  width: 200px;
+}
+/* Add some effects to the project images */
+.projectImageRound {
+  border-radius: 15px 50px;
+  filter: drop-shadow(8px 8px 8px #852a15);
+}
+/* Clear floats after the columns */
+.rowProject:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Stying for the project section description */
+.projectSubText {
+  font-size: 1rem;
+}
+/* Description for each project */
+.projectDescripton {
+  // padding-left: 6rem;
+  margin: 0;
+  font-size: 16px;
+  color: rgb(153, 152, 152);
+}
+/* Styping for the project titles */
+.projectTitle {
+  font-size: 2rem;
+  transform: skew(-15deg);
+}
+
+/* --------------------------------------------------------- Styling for the Contact Component --------------------------------------------------------- */
+
+/* Styling for the contact body */
+.contactMeBody {
+  font-size: 1rem;
+  line-height: 30px;
+}
+/* Adjusting the email icon */
+.emailSection {
+  padding-top: 4rem;
+  text-align: center;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+// @media only screen and (min-device-width: 0px) {
+/* Stuff to hide for small phones  */
+.mainNavBar,
+.accentLineRight,
+.accentLineLeft,
+.emailLink,
+.socialIconList,
+.aboutMeLogo,
+.projectDescripton,
+.summary,
+.number,
+.projectSubText,
+.projectsTitle,
+.intro,
+.pictureOfMe {
+  display: none;
+}
+/* General settings for the main Home component */
+.home {
+  min-height: 3vh;
+  text-align: center;
+}
+/* Align text center for mobile users */
+.container {
+  text-align: center;
+}
+/* Style the first box */
+.slimShady {
+  letter-spacing: 0rem;
+  font-size: 1rem;
+}
+/* Style my name! */
+.name {
+  font-size: 3.8rem;
+}
+/* Style the tagline(find a better one) */
+.tagline {
+  font-size: 1.5rem;
+}
+/* Mobile summary styling */
+.summaryMobile {
+  font-size: 1rem;
+  line-height: 25px;
+  color: rgb(153, 152, 152);
+  margin: 0px;
+  text-align: center;
+  margin-top: 1rem;
+}
+/* Adjust spacing for project tabs */
+.projectSpacing,
+.rowProject {
+  padding-bottom: 0px;
+  max-width: 260px;
+  margin: 0 auto;
+}
+/* Custom description for mobile use */
+.projectDescriptonMobile {
+  padding-left: 6rem;
+  margin-top: 30px;
+  font-size: 16px;
+  color: rgb(153, 152, 152);
+  padding: 0px;
+  min-width: 260px;
+  line-height: 25px;
+}
+.projectSpacing {
+  padding: 0px;
+}
+/* Settings for the two following paragraphs */
+.body,
+.ending {
+  margin: 0px;
+  color: rgb(153, 152, 152);
+}
+/* Below this line is grid formating, placing objects where I think they need to go for mobile */
+.mainContent {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5fr;
+  grid-gap: 10px;
+  max-width: 490px;
+  margin: 0 auto;
+}
+.homeGrid {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+.projectsGrid {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+.aboutGrid {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+.contactGrid {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+  padding-bottom: 3rem;
+}
+// }
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 768px) {
+  .mainNavBar,
+  .accentLineRight,
+  .accentLineLeft,
+  .emailLink,
+  .socialIconList,
+  .summary,
+  .number,
+  .projectsTitle,
+  .intro,
+  .pictureOfMe,
+  .projectSubText {
+    display: unset;
+  }
+  .aboutMeLogo,
+  .summaryMobile {
+    display: none;
+  }
+  // Align text left for tablet design
+  .container {
+    text-align: left;
+  }
+  /* General settings for the main Home component */
+  .home {
+    min-height: 100vh;
+    margin-top: 7rem;
+    margin-bottom: -9rem;
+    text-align: left;
+  }
+  /* Style the first box */
+  .slimShady {
+    font-size: 1rem;
+  }
+  /* Style my name! */
+  .name {
+    font-size: 4rem;
+  }
+  //Make the section a little bigger for tablets
+  .projects {
+    min-height: 100vh;
+  }
+  /* Style the tagline(find a better one) */
+  .projectSubText {
+    // font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  //Spacing for the project section
+  .projectSpacing,
+  .rowProject {
+    max-width: unset;
+    padding-bottom: 2rem;
+  }
+  //Add some spacing for the project descriptions on tablet view
+  .projectDescriptonMobile {
+    margin-top: 0px;
+    padding-left: 6rem;
+  }
+  //Resizing for the About me section as a whole
+  .aboutMe {
+    min-height: 100vh;
+    margin-top: 30vh;
+    margin-bottom: -30vh;
+  }
+  //center the contact section for tablets still
+  .contactMeBody {
+    text-align: center;
+  }
+  /* Below this line is grid formating, placing objects where I think they need to go for tablet */
+  .mainContent {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 680px;
+  }
+  .contactGrid {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
+// /* Desktops and laptops ----------- */
+@media only screen and (min-width: 1024px) {
+  /* Style my name! */
+  .name {
+    font-size: 6rem;
+    margin: 0;
+  }
+  /* Style the tagline(find a better one) */
+  .tagline {
+    font-size: 3rem;
+    margin: 0;
+  }
+  /* Stlye the summary (also make a better one) */
+  .summary {
+    font-size: 1rem;
+    line-height: 25px;
+  }
+  //delete the smaller descriptions
+  .projectDescriptonMobile {
+    display: none;
+  }
+  //show the longer descriptions
+  .projectDescripton {
+    position: absolute;
+    padding-left: 6em;
+    display: unset;
+    max-width: 550px;
+    line-height: 25px;
+  }
+  /* Settings for the product logos, HTML JSS etc. */
+  .aboutMeLogo {
+    display: inline;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+  }
+  /* Add some padding between the paragraphs and the logos */
+  .aboutMeLogoList {
+    padding-top: 3rem;
+  }
+  .contactMeTitle,
+  .contactMeBody {
+    padding-top: 40px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  /* Below this line is grid formating, placing objects where I think they need to go for tablet */
+  .mainContent {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 900px;
+  }
 }

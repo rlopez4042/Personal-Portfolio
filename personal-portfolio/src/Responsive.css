@@ -1,0 +1,231 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-width: 767px) {
+    /* Stuff to hide for small phones  */
+    .mainNavBar,
+    .accentLineRight,
+    .accentLineLeft,
+    .emailLink,
+    .socialIconList,
+    .aboutMeLogo,
+    .projectDescripton,
+    .summary,
+    .number,
+    .projectSubText,
+    .projectsTitle,
+    .intro,
+    .pictureOfMe {
+      display: none;
+    }
+    /* General settings for the main Home component */
+    .home {
+      min-height: 1vh;
+    }
+    /* Align text center for mobile users */
+    .container {
+      text-align: center;
+    }
+    /* Style the first box */
+    .slimShady {
+      letter-spacing: 0rem;
+      font-size: 1rem;
+    }
+    /* Style my name! */
+    .name {
+      font-size: 3.8rem;
+    }
+    /* Style the tagline(find a better one) */
+    .tagline {
+      font-size: 1.5rem;
+    }
+    /* Mobile summary styling */
+    .summaryMobile {
+      font-size: 1rem;
+      line-height: 25px;
+      color: rgb(153, 152, 152);
+      margin:0px;
+    }
+    /* Adjust spacing for project tabs */
+    .projectSpacing,
+    .rowProject {
+      padding-bottom: 0px;
+      max-width: 260px;
+      margin: 0 auto;
+    }
+    /* Custom description for mobile use */
+    .projectDescriptonMobile {
+      padding-left: 6rem;
+      margin-top: 30px;
+      font-size: 16px;
+      color: rgb(153, 152, 152);
+      padding: 0px;
+      min-width: 260px;
+      line-height: 25px;
+    }
+    .projectSpacing {
+      padding: 0px;
+    }
+    /* Settings for the two following paragraphs */
+    .body,
+    .ending {
+      margin: 0px;
+      color: rgb(153, 152, 152);
+    }
+    /* Below this line is grid formating, placing objects where I think they need to go for mobile */
+    .mainContent {
+      padding-left: 20px;
+      padding-right: 20px;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 7fr;
+      grid-gap: 10px;
+    }
+    .homeGrid {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+    }
+    .projectsGrid {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+    .aboutGrid {
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
+    }
+    .contactGrid {
+      grid-column: 1 / 2;
+      grid-row: 4 / 5;
+      padding-bottom: 3rem;
+    }
+  }
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (max-width: 1023px){
+    .mainNavBar,
+    .accentLineRight,
+    .accentLineLeft,
+    .emailLink,
+    .socialIconList,
+    /* .projectDescripton, */
+    .summary,
+    .number,
+    .projectsTitle,
+    .intro,
+    .pictureOfMe {
+      display: unset;
+    }
+    .aboutMeLogo,
+    .summaryMobile
+    /* .projectDescriptonMobile */
+    {
+      display:none;
+    }
+  
+    .container {
+      text-align: left;
+    }
+    /* Styles */
+    /* General settings for the main Home component */
+  .home {
+    min-height: 100vh;
+    margin-top:7rem;
+    margin-bottom:-9rem;
+  }
+  /* Style the first box */
+  .slimShady {
+    font-size: 1rem;
+  }
+  /* Style my name! */
+  .name {
+    font-size: 4rem;
+  }
+  /* Style the tagline(find a better one) */
+  .tagline {
+    font-size: 1.5rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+  }
+  /* Stlye the summary (also make a better one) */
+  .summary {
+    font-size: 1rem;
+  }
+  
+  .pictureOfMe{
+    padding-top:2rem;
+  }
+  .intro {
+      margin: 0px;
+      color: rgb(153, 152, 152);
+    }
+  
+  
+    .projectSpacing,
+    .rowProject {
+      padding-bottom: 0px;
+      max-width: unset;
+      padding-bottom:2rem;
+    }
+  
+    /* Create some columns one for the image and the other for some text */
+    .projectColumn {
+      float: left;
+      width: 50%;
+    }
+    /* Place the columns side by side */
+    .projectLeft {
+      width: 200px;
+    }
+    /* Add some effects to the project images */
+    .projectImageRound {
+      border-radius: 15px 50px;
+      filter: drop-shadow(8px 8px 8px #000000);
+    }
+    /* Clear floats after the columns */
+    .rowProject:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .projectDescriptonMobile{
+      padding-left: 6rem;
+    }
+  
+     /* Below this line is grid formating, placing objects where I think they need to go for mobile */
+     .mainContent {
+      padding-left: 100px;
+      padding-right: 100px;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 7fr;
+      /* grid-gap: 80px; */
+    }
+    .homeGrid {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+    }
+    .aboutGrid {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+    .projectsGrid {
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
+    }
+    .contactGrid {
+      grid-column: 1 / 2;
+      grid-row: 4 / 5;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+  
+  }
+  
+  
+  /* Desktops and laptops ----------- */
+  @media only screen and (min-width: 1024px) {
+    /* Styles */
+  }
+  
+  /* Large screens ----------- */
+  @media only screen and (min-width: 1824px) {
+    /* Styles */
+  }

@@ -1,31 +1,25 @@
 function AboutMe() {
   let aboutMe = (
     <div>
-      <img
-        className="pictureOfMe"
-        src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/picofmeee.png")}
-        width="160"
-        height="190"
-        alt=""
-      />
       <p className="intro">
-        Hey! My name is Robert Lopez and I'm currently located in San Diego,
+        My name is Robert Lopez and I'm currently located in San Diego,
         California. I'm a decorated transitioning service member with five years
         comprehensive ground combat intelligence analyst experience looking to
         launch a career in software development.
       </p>
       <p className="body">
-        Currently located in San Diego, I recently graduated from San Diego Mesa
-        College with an Associates in Science, majoring in Computer Science, and
-        aim to continue my education at San Diego State University starting in
-        the Fall of 2022. I'm currently enrolled in a Software Engineering
-        Immersive course at General Assembly.
+        I recently graduated from San Diego Mesa College with an Associates in
+        Science, majoring in Computer Science, and aim to continue my education
+        at San Diego State University starting in the Fall of 2022. I'm
+        currently enrolled in a Software Engineering Immersive course at General
+        Assembly.
       </p>
       <p className="ending">
         I'm eager to launch a career in software development. If you'd like to
-        learn a little more about me, I've linked a copy of my updated resume
-        below!
+        learn a little more about me, I've linked a copy of my updated resume in
+        the top right.
       </p>
+      <p id="forList">Skills include:</p>
       <ul className="aboutMeLogoList">
         <li className="aboutMeLogo">
           <img
@@ -74,12 +68,11 @@ function AboutMe() {
   );
   return (
     <div className="aboutMe">
-      <h1>
-        <span className="number">0.2</span> About me
+      <h1 className="aboutMeTitle">
+        <span className="number">0.2</span> About me<hr className="new4"></hr>
       </h1>
       {aboutMe}
     </div>
   );
 }
-
 export default AboutMe;

@@ -4,7 +4,7 @@ function Contact() {
       <p className="contactMeBody">
         I'm always looking for new job opportunities. Feel free to reach out to
         me with any questions in an email or Google form below and I'll get back
-        to you as soon as possible!
+        to you as soon as possible.
       </p>
       <section className="emailSection">
         <a href="mailto:rlopez4042@gmail.com">
@@ -22,7 +22,7 @@ function Contact() {
   return (
     <div className="contactMe">
       <h1 className="contactMeTitle">
-        <span className="number">0.3</span> Contact
+        <span className="number">0.3</span> Contact<hr className="new4"></hr>
       </h1>
       <div>{contact}</div>
     </div>

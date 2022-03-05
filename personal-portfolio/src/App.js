@@ -1,13 +1,11 @@
 import "./App.css";
 import "./App.scss";
-import { Route, Link, Routes, Navigate } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact/Contact";
 import SocailMenu from "./Components/SocialMenu/SocialMenu";
-import Hamburger from "./Components/Hamburger/Hamburger";
-// import Animation from "./Components/Animation/Animation";
 
 function App() {
   return (
@@ -33,8 +31,15 @@ function App() {
               </li>
             </ul>
           </nav>
+          <section className="resumeLink">
+            <a
+              href="https://docs.google.com/document/d/1__CDPlZyVmbbblfBeLImqJ1tBSAsYPOtUBDie_52Ybs/edit?usp=sharing"
+              target="_blank"
+            >
+              <button className="button"> Resume </button>
+            </a>
+          </section>
         </header>
-
         <div className="mainContent">
           <main>
             <div className="homeGrid">
@@ -43,23 +48,18 @@ function App() {
               </Routes>
             </div>
           </main>
-          {<Hamburger />}
-
           <div className="projectsGrid">
             <a name="projects"></a>
             {<Projects />}
           </div>
-
           <div className="aboutGrid">
             <a name="aboutMe"></a>
             {<AboutMe />}
           </div>
-
           <div className="contactGrid">
             <a name="contact"></a>
             {<Contact />}
           </div>
-
           {<SocailMenu />}
         </div>
       </div>

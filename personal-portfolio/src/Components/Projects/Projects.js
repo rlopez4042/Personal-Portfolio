@@ -1,7 +1,7 @@
 function Projects() {
   let firstProject = (
     <div id="container">
-      <p className="date">20220128</p>
+      <p className="date">20220121</p>
       <img
         className="projectImage"
         src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/Firstproject.png")}
@@ -9,7 +9,7 @@ function Projects() {
       />
       <div className="projBox">
         <p className="projectDescriptionMobile">
-          My first project and orignal portfolio. Built using exclusively HTML,
+          My first project and orignal portfolio. Built using only HTML,
           CSS, and JavaScript.
         </p>
         <p className="projectDescription1">
@@ -20,13 +20,16 @@ function Projects() {
         </p>
       </div>
       <div className="projectButtons">
-        <a href="https://www.linkedin.com/in/robert-t-lopez/" target="_blank">
+        <a
+          href="https://rlopez4042.github.io/Project-1-Portfolio/"
+          target="_blank"
+        >
           <button className="button-3" role="button">
             Website
           </button>
         </a>
         <a
-          href="https://github.com/rlopez4042/project-1-portfolio"
+          href="https://github.com/rlopez4042/Project-1-Portfolio"
           target="_blank"
         >
           <button className="button-3" role="button">
@@ -39,7 +42,7 @@ function Projects() {
 
   let secondProject = (
     <div id="container">
-      <p className="date">20220218</p>
+      <p className="date">20220211</p>
       <img
         className="projectImage"
         src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/Secondproject.png")}
@@ -80,7 +83,7 @@ function Projects() {
 
   let thirdProject = (
     <div id="container">
-      <p className="date">20220309</p>
+      <p className="date">20220306</p>
       <img
         className="projectImage"
         src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/ThirdProject.jpg")}
@@ -89,12 +92,44 @@ function Projects() {
       <div className="projBox">
         <p className="projectDescriptionMobile">
           Takes user input to provide an estimated BMI, also provides caloric
-          estimates for weight adjustment goals.
+          estimates for weight adjustment goals. Still working.
         </p>
         <p className="projectDescription1">
-          This app is designed to calculate an individual’s BMI give user-input
-          and calculate optimal caloric deficit to lose weight at the user's
-          desired pace. Really want to lean into mathematics with this one.
+          My first project built with Angular. This app is designed to calculate
+          an individual’s BMI give user-input and calculate optimal caloric
+          deficit to lose weight at the user's desired pace.
+        </p>
+      </div>
+      <div className="projectButtons">
+        <a href="https://www.linkedin.com/in/robert-t-lopez/" target="_blank">
+          <button className="button-3" role="button">
+            Website
+          </button>
+        </a>
+        <a href="https://github.com/rlopez4042/Calorie-Calculator" target="_blank">
+          <button className="button-3" role="button">
+            My Code{" "}
+          </button>
+        </a>
+      </div>
+    </div>
+  );
+
+  let fourthProject = (
+    <div id="container">
+      <p className="date">20220307</p>
+      <img
+        className="projectImage"
+        src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/ThirdProject.jpg")}
+        alt=""
+      />
+      <div className="projBox">
+        <p className="projectDescriptionMobile">
+          A workout planner for users to create custom workouts with exercises, repetitions and set schemes.
+        </p>
+        <p className="projectDescription1">
+          My first large group project and third project at General Assembly. This project incorporates a fully functional back and front end.
+          My biggest take away from this project was learning how to work with other developers on a larger project.
         </p>
       </div>
       <div className="projectButtons">
@@ -111,6 +146,8 @@ function Projects() {
       </div>
     </div>
   );
+
+
   return (
     <div className="projects">
       <h1 className="projectsTitle">
@@ -121,8 +158,10 @@ function Projects() {
       <div className="projectSpacing">{firstProject}</div>
       <h2 className="projectTitle">Surfs Up San Diego</h2>
       <div className="projectSpacing">{secondProject}</div>
-      <h2 className="projectTitle">BMI Calculator</h2>
+      <h2 className="projectTitle">Calorie Calculator</h2>
       <div className="projectSpacing">{thirdProject}</div>
+      <h2 className="projectTitle">Workout Planner</h2>
+      <div className="projectSpacing">{fourthProject}</div>
     </div>
   );
 }

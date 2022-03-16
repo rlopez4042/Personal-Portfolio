@@ -3,7 +3,7 @@ function SocailMenu() {
     <div>
       <ul className="socialIconList">
         <li className="socialIcons">
-          <a href="https://www.linkedin.com/in/robert-t-lopez/">
+          <a href="https://www.linkedin.com/in/robert-t-lopez/" target="_blank">
             <img
               src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/linkedin-2-icon-256.png")}
               width="50"
@@ -13,7 +13,7 @@ function SocailMenu() {
           </a>
         </li>
         <li className="socialIcons">
-          <a href="https://github.com/rlopez4042">
+          <a href="https://github.com/rlopez4042" target="_blank">
             <img
               src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/github-icon-256.png")}
               width="50"
@@ -22,7 +22,7 @@ function SocailMenu() {
             />
           </a>
         </li>{" "}
-        <li className="socialIcons">
+        {/* <li className="socialIcons">
           <a href="https://www.instagram.com/roebawtoe/">
             <img
               src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/instagram-2-icon-256.png")}
@@ -31,7 +31,7 @@ function SocailMenu() {
               alt=""
             />
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

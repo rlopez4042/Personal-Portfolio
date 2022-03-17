@@ -23,46 +23,63 @@ function AboutMe() {
       <ul className="aboutMeLogoList">
         <li className="aboutMeLogo">
           <img
-            src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/ImportedImages/htmlLogo.png")}
+            src={require("../../Images/ImportedImages/htmlLogo.png")}
             width="50"
             height="50"
           />
         </li>
         <li className="aboutMeLogo">
           <img
-            src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/ImportedImages/cssLogo.png")}
+            src={require("../../Images/ImportedImages/cssLogo.png")}
             width="50"
             height="50"
           />
         </li>
         <li className="aboutMeLogo">
           <img
-            src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/ImportedImages/jsLogo.png")}
+            src={require("../../Images/ImportedImages/jsLogo.png")}
             width="50"
             height="50"
           />
         </li>
         <li className="aboutMeLogo">
           <img
-            src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/ImportedImages/react.png")}
+            src={require("../../Images/ImportedImages/react.png")}
             width="50"
             height="50"
           />
         </li>
         <li className="aboutMeLogo">
           <img
-            src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/5847ea22cef1014c0b5e4833.png")}
+            src={require("../../Images/5847ea22cef1014c0b5e4833.png")}
             width="50"
             height="50"
           />
         </li>
         <li className="aboutMeLogo">
           <img
-            src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/ImportedImages/java-logo-1.png")}
+            src={require("../../Images/ImportedImages/java-logo-1.png")}
             width="70"
             height="70"
           />
         </li>
+
+        <li className="aboutMeLogo">
+          <img
+            src={require("../../Images/Python.webp")}
+            width="60"
+            height="60"
+          />
+        </li>
+
+        <li className="aboutMeLogo">
+          <img
+            src={require("../../Images/mongoDB.png")}
+            width="60"
+            height="60"
+          />
+        </li>
+
       </ul>
     </div>
   );

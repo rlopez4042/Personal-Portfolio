@@ -133,12 +133,12 @@ function Projects() {
         </p>
       </div>
       <div className="projectButtons">
-        <a href="https://www.linkedin.com/in/robert-t-lopez/" target="_blank">
+        <a href="https://pages.git.generalassemb.ly/placeholder/WorkoutPlannerClient/" target="_blank">
           <button className="button-3" role="button">
             Website
           </button>
         </a>
-        <a href="https://www.linkedin.com/in/robert-t-lopez/" target="_blank">
+        <a href="https://github.com/rlopez4042/WorkoutPlannerApi" target="_blank">
           <button className="button-3" role="button">
             My Code{" "}
           </button>

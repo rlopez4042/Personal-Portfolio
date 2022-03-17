@@ -10,7 +10,7 @@ function Contact() {
         <a href="mailto:rlopez4042@gmail.com">
           <img
             className="emailImage"
-            src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/ImportedImages/colored-gmail.png")}
+            src={require("../../Images/ImportedImages/colored-gmail.png")}
             width="50"
             height="50"
             alt=""

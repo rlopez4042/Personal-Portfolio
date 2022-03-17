@@ -4,7 +4,7 @@ function Projects() {
       <p className="date">20220121</p>
       <img
         className="projectImage"
-        src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/Firstproject.png")}
+        src={require("../../Images/Firstproject.png")}
         alt=""
       />
       <div className="projBox">
@@ -45,7 +45,7 @@ function Projects() {
       <p className="date">20220211</p>
       <img
         className="projectImage"
-        src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/Secondproject.png")}
+        src={require("../../Images/Secondproject.png")}
         alt=""
       />
       <div className="projBox">
@@ -86,7 +86,7 @@ function Projects() {
       <p className="date">20220306</p>
       <img
         className="projectImage"
-        src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/ThirdProject.jpg")}
+        src={require("../../Images/ThirdProject.jpg")}
         alt=""
       />
       <div className="projBox">
@@ -120,7 +120,7 @@ function Projects() {
       <p className="date">20220307</p>
       <img
         className="projectImage"
-        src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/ThirdProject.jpg")}
+        src={require("../../Images/ThirdProject.jpg")}
         alt=""
       />
       <div className="projBox">

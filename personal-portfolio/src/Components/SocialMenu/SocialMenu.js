@@ -5,7 +5,7 @@ function SocailMenu() {
         <li className="socialIcons">
           <a href="https://www.linkedin.com/in/robert-t-lopez/" target="_blank">
             <img
-              src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/linkedin-2-icon-256.png")}
+              src={require("../../Images/linkedin-2-icon-256.png")}
               width="50"
               height="50"
               alt=""
@@ -15,7 +15,7 @@ function SocailMenu() {
         <li className="socialIcons">
           <a href="https://github.com/rlopez4042" target="_blank">
             <img
-              src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/github-icon-256.png")}
+              src={require("../../Images/github-icon-256.png")}
               width="50"
               height="50"
               alt=""
@@ -25,7 +25,7 @@ function SocailMenu() {
         {/* <li className="socialIcons">
           <a href="https://www.instagram.com/roebawtoe/">
             <img
-              src={require("/Users/robertlopez/Desktop/MyPortfolio/PersonalPortfolio/personal-portfolio/src/Images/instagram-2-icon-256.png")}
+              src={require("../../Images/instagram-2-icon-256.png")}
               width="50"
               height="50"
               alt=""

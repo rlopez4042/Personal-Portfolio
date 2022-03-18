@@ -92,7 +92,7 @@ function Projects() {
       <div className="projBox">
         <p className="projectDescriptionMobile">
           Takes user input to provide an estimated BMI, also provides caloric
-          estimates for weight adjustment goals. Still working.
+          estimates for weight adjustment goals. 
         </p>
         <p className="projectDescription1">
           My first project built with Angular. This app is designed to calculate

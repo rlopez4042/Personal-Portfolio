@@ -9,8 +9,8 @@ function Projects() {
       />
       <div className="projBox">
         <p className="projectDescriptionMobile">
-          My first project and orignal portfolio. Built using only HTML,
-          CSS, and JavaScript.
+          My first project and orignal portfolio. Built using only HTML, CSS,
+          and JavaScript.
         </p>
         <p className="projectDescription1">
           I built a personal portfolio using CSS, HTML, and JavaScript. I
@@ -22,6 +22,7 @@ function Projects() {
       <div className="projectButtons">
         <a
           href="https://rlopez4042.github.io/Project-1-Portfolio/"
+          rel="noreferrer"
           target="_blank"
         >
           <button className="button-3" role="button">
@@ -30,6 +31,7 @@ function Projects() {
         </a>
         <a
           href="https://github.com/rlopez4042/Project-1-Portfolio"
+          rel="noreferrer"
           target="_blank"
         >
           <button className="button-3" role="button">
@@ -63,6 +65,7 @@ function Projects() {
       <div className="projectButtons">
         <a
           href="https://rlopez4042.github.io/project-2-portfolio/"
+          rel="noreferrer"
           target="_blank"
         >
           <button className="button-3" role="button">
@@ -71,6 +74,7 @@ function Projects() {
         </a>
         <a
           href="https://github.com/rlopez4042/project-2-portfolio"
+          rel="noreferrer"
           target="_blank"
         >
           <button className="button-3" role="button">
@@ -92,7 +96,7 @@ function Projects() {
       <div className="projBox">
         <p className="projectDescriptionMobile">
           Takes user input to provide an estimated BMI, also provides caloric
-          estimates for weight adjustment goals. 
+          estimates for weight adjustment goals.
         </p>
         <p className="projectDescription1">
           My first project built with Angular. This app is designed to calculate
@@ -101,12 +105,20 @@ function Projects() {
         </p>
       </div>
       <div className="projectButtons">
-        <a href="https://rlopez4042.github.io/Calorie-Calculator/" target="_blank">
+        <a
+          href="https://rlopez4042.github.io/Calorie-Calculator/"
+          rel="noreferrer"
+          target="_blank"
+        >
           <button className="button-3" role="button">
             Website
           </button>
         </a>
-        <a href="https://github.com/rlopez4042/Calorie-Calculator" target="_blank">
+        <a
+          href="https://github.com/rlopez4042/Calorie-Calculator"
+          rel="noreferrer"
+          target="_blank"
+        >
           <button className="button-3" role="button">
             My Code{" "}
           </button>
@@ -125,20 +137,31 @@ function Projects() {
       />
       <div className="projBox">
         <p className="projectDescriptionMobile">
-          A workout planner for users to create custom workouts with exercises, repetitions and set schemes.
+          A workout planner for users to create custom workouts with exercises,
+          repetitions and set schemes.
         </p>
         <p className="projectDescription1">
-          My first large group project and third project at General Assembly. This project incorporates a fully functional back and front end.
-          My biggest take away from this project was learning how to work with other developers on a larger project.
+          My first large group project and third project at General Assembly.
+          This project incorporates a fully functional back and front end. My
+          biggest take away from this project was learning how to work with
+          other developers on a larger project.
         </p>
       </div>
       <div className="projectButtons">
-        <a href="https://rlopez4042.github.io/WorkoutPlannerClient/" target="_blank">
+        <a
+          href="https://rlopez4042.github.io/WorkoutPlannerClient/"
+          rel="noreferrer"
+          target="_blank"
+        >
           <button className="button-3" role="button">
             Website
           </button>
         </a>
-        <a href="https://github.com/rlopez4042/WorkoutPlannerApi" target="_blank">
+        <a
+          href="https://github.com/rlopez4042/WorkoutPlannerApi"
+          rel="noreferrer"
+          target="_blank"
+        >
           <button className="button-3" role="button">
             Our Code{" "}
           </button>
@@ -146,7 +169,6 @@ function Projects() {
       </div>
     </div>
   );
-
 
   return (
     <div className="projects">

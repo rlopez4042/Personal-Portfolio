@@ -26,6 +26,7 @@ function AboutMe() {
             src={require("../../Images/ImportedImages/htmlLogo.png")}
             width="50"
             height="50"
+            alt=""
           />
         </li>
         <li className="aboutMeLogo">
@@ -33,6 +34,7 @@ function AboutMe() {
             src={require("../../Images/ImportedImages/cssLogo.png")}
             width="50"
             height="50"
+            alt=""
           />
         </li>
         <li className="aboutMeLogo">
@@ -40,6 +42,7 @@ function AboutMe() {
             src={require("../../Images/ImportedImages/jsLogo.png")}
             width="50"
             height="50"
+            alt=""
           />
         </li>
         <li className="aboutMeLogo">
@@ -47,6 +50,7 @@ function AboutMe() {
             src={require("../../Images/ImportedImages/react.png")}
             width="50"
             height="50"
+            alt=""
           />
         </li>
         <li className="aboutMeLogo">
@@ -54,6 +58,7 @@ function AboutMe() {
             src={require("../../Images/5847ea22cef1014c0b5e4833.png")}
             width="50"
             height="50"
+            alt=""
           />
         </li>
         <li className="aboutMeLogo">
@@ -61,6 +66,7 @@ function AboutMe() {
             src={require("../../Images/ImportedImages/java-logo-1.png")}
             width="70"
             height="70"
+            alt=""
           />
         </li>
 
@@ -69,6 +75,7 @@ function AboutMe() {
             src={require("../../Images/Python.webp")}
             width="60"
             height="60"
+            alt=""
           />
         </li>
 
@@ -77,6 +84,7 @@ function AboutMe() {
             src={require("../../Images/mongoDB.png")}
             width="60"
             height="60"
+            alt=""
           />
         </li>
 
@@ -85,6 +93,7 @@ function AboutMe() {
             src={require("../../Images/sql.png")}
             width="60"
             height="60"
+            alt=""
           />
         </li>
 

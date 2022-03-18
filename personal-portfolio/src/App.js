@@ -34,6 +34,7 @@ function App() {
           <section className="resumeLink">
             <a
               href="https://docs.google.com/document/d/1__CDPlZyVmbbblfBeLImqJ1tBSAsYPOtUBDie_52Ybs/edit?usp=sharing"
+              rel="noreferrer" 
               target="_blank"
             >
               <button className="button"> Resume </button>
@@ -44,7 +45,7 @@ function App() {
           <main>
             <div className="homeGrid">
               <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/Personal-Portfolio" element={<Home />} />
               </Routes>
             </div>
           </main>

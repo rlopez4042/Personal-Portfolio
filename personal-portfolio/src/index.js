@@ -41,7 +41,7 @@ var refreshDuration = 10000;
             randomize();
         
             for(var i = 0; i < points.length; i++) {
-                if(points[i].originX != unitWidth*(numPointsX-1) && points[i].originY != unitHeight*(numPointsY-1)) {
+                if(points[i].originX !== unitWidth*(numPointsX-1) && points[i].originY !== unitHeight*(numPointsY-1)) {
                     var topLeftX = points[i].x;
                     var topLeftY = points[i].y;
                     var topRightX = points[i+1].x;
@@ -56,25 +56,25 @@ var refreshDuration = 10000;
                     for(var n = 0; n < 2; n++) {
                         var polygon = document.createElementNS(svg.namespaceURI, 'polygon');
         
-                        if(rando==0) {
-                            if(n==0) {
+                        if(rando===0) {
+                            if(n===0) {
                                 polygon.point1 = i;
                                 polygon.point2 = i+numPointsX;
                                 polygon.point3 = i+numPointsX+1;
                                 polygon.setAttribute('points',topLeftX+','+topLeftY+' '+bottomLeftX+','+bottomLeftY+' '+bottomRightX+','+bottomRightY);
-                            } else if(n==1) {
+                            } else if(n===1) {
                                 polygon.point1 = i;
                                 polygon.point2 = i+1;
                                 polygon.point3 = i+numPointsX+1;
                                 polygon.setAttribute('points',topLeftX+','+topLeftY+' '+topRightX+','+topRightY+' '+bottomRightX+','+bottomRightY);
                             }
-                        } else if(rando==1) {
-                            if(n==0) {
+                        } else if(rando===1) {
+                            if(n===0) {
                                 polygon.point1 = i;
                                 polygon.point2 = i+numPointsX;
                                 polygon.point3 = i+1;
                                 polygon.setAttribute('points',topLeftX+','+topLeftY+' '+bottomLeftX+','+bottomLeftY+' '+topRightX+','+topRightY);
-                            } else if(n==1) {
+                            } else if(n===1) {
                                 polygon.point1 = i+numPointsX;
                                 polygon.point2 = i+1;
                                 polygon.point3 = i+numPointsX+1;
@@ -99,10 +99,10 @@ var refreshDuration = 10000;
         
         function randomize() {
             for(var i = 0; i < points.length; i++) {
-                if(points[i].originX != 0 && points[i].originX != unitWidth*(numPointsX-1)) {
+                if(points[i].originX !== 0 && points[i].originX !== unitWidth*(numPointsX-1)) {
                     points[i].x = points[i].originX + Math.random()*unitWidth-unitWidth/2;
                 }
-                if(points[i].originY != 0 && points[i].originY != unitHeight*(numPointsY-1)) {
+                if(points[i].originY !== 0 && points[i].originY !== unitHeight*(numPointsY-1)) {
                     points[i].y = points[i].originY + Math.random()*unitHeight-unitHeight/2;
                 }
             }

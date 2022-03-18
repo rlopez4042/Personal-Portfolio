@@ -101,7 +101,7 @@ function Projects() {
         </p>
       </div>
       <div className="projectButtons">
-        <a href="https://www.linkedin.com/in/robert-t-lopez/" target="_blank">
+        <a href="https://rlopez4042.github.io/Calorie-Calculator/" target="_blank">
           <button className="button-3" role="button">
             Website
           </button>
@@ -120,7 +120,7 @@ function Projects() {
       <p className="date">20220307</p>
       <img
         className="projectImage"
-        src={require("../../Images/ThirdProject.jpg")}
+        src={require("../../Images/Project3GA.png")}
         alt=""
       />
       <div className="projBox">
@@ -133,14 +133,14 @@ function Projects() {
         </p>
       </div>
       <div className="projectButtons">
-        <a href="https://pages.git.generalassemb.ly/placeholder/WorkoutPlannerClient/" target="_blank">
+        <a href="https://rlopez4042.github.io/WorkoutPlannerClient/" target="_blank">
           <button className="button-3" role="button">
             Website
           </button>
         </a>
         <a href="https://github.com/rlopez4042/WorkoutPlannerApi" target="_blank">
           <button className="button-3" role="button">
-            My Code{" "}
+            Our Code{" "}
           </button>
         </a>
       </div>

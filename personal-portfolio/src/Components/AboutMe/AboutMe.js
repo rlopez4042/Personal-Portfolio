@@ -80,6 +80,14 @@ function AboutMe() {
           />
         </li>
 
+        <li className="aboutMeLogo">
+          <img
+            src={require("../../Images/sql.png")}
+            width="60"
+            height="60"
+          />
+        </li>
+
       </ul>
     </div>
   );

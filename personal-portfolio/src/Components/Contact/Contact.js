@@ -2,7 +2,7 @@ function Contact() {
   let contact = (
     <div>
       <p className="contactMeBody">
-        I'm always looking for new job opportunities. Feel free to reach out to
+        I'm always looking for new opportunities. Feel free to reach out to
         me with any questions in an email with the link below, and I'll get back
         to you as soon as possible.
       </p>

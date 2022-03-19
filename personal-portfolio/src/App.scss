@@ -85,7 +85,6 @@ span {
 .socialIconList,
 .aboutMeLogo,
 .summary,
-// .projectDescription1,
 .number,
 .projectSubText,
 .projectsTitle,
@@ -165,11 +164,15 @@ hr.new4 {
 /* Mobile summary styling */
 .summaryMobile {
   font-size: 1.1rem;
-  line-height: 2rem;
+  line-height: 1.4rem;
   color: rgb(153, 152, 152);
   margin: 0px;
   text-align: center;
   margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.spanWhite{
+color: white;
 }
 /* ----------- Projects Component ----------- */
 .date {
@@ -213,14 +216,14 @@ hr.new4 {
 }
 .projectDescription1 {
   font-size: 0.9rem;
-  line-height: 1.1rem;
+  line-height: 1.2rem;
   color: #bebebe;
   margin: 0.6rem;
 }
 .projectButtons {
   position: absolute;
   right: 0rem;
-  bottom: -5rem;
+  bottom: -5.5rem;
 }
 .projectSpacing {
   padding-top: 0rem;
@@ -289,7 +292,6 @@ hr.new4 {
   .aboutMeLogo,
   .socialIconList,
   .summary,
-  .projectDescription1,
   .number,
   .projectSubText,
   .projectsTitle,
@@ -361,7 +363,7 @@ hr.new4 {
     width: 450px;
     height: 220px;
     right: 0px;
-    top: 60px;
+    top: 85px;
     backdrop-filter: blur(80px);
     border-width: 1px;
     font-weight: 400;
@@ -477,9 +479,9 @@ hr.new4 {
   /* ----------- Projects Component ----------- */
   .date {
     position: absolute;
-    right: 0px;
+    right: -20px;
     top: -8px;
-    letter-spacing: 1.9rem;
+    letter-spacing: 1.7rem;
     color: #ff5733;
     font-weight: 700;
   }
@@ -491,11 +493,9 @@ hr.new4 {
   .projBox {
     position: absolute;
     right: 0px;
-    top: 40px;
+    top: 45px;
   }
   .projectImage {
-    // position: absolute;
-    // right:0px;
     width: 550px;
     height: 350px;
   }

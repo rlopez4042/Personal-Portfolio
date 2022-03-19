@@ -11,8 +11,8 @@ function Home() {
       </p>
       <p className="summaryMobile">
         A decorated Marine Corps veteran and interdisciplinary software
-        engineer, currently enrolled at General Assembly. Check out some of my
-        projects below:
+        engineer, currently enrolled at General Assembly.<br></br>
+        <span className="spanWhite">Check out some of my projects below:</span>
       </p>
     </div>
   );

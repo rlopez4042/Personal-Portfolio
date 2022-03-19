@@ -9,14 +9,13 @@ function Projects() {
       />
       <div className="projBox">
         <p className="projectDescriptionMobile">
-          My first project at General Assembly and orignal portfolio. Built using only HTML, CSS,
+          My first project at General Assembly and original portfolio. Built using mostly HTML, CSS,
           and JavaScript.
         </p>
         <p className="projectDescription1">
-          I built a personal portfolio using CSS, HTML, and JavaScript. I
+          The first version of my personal portfolio, built using HTML, CSS, and JavaScript. I
           decided to keep my original portfolio in-tact instead of upgrading it.
-          I think this project serves as a good benchmark for progress, and
-          sometimes I like to look back and see how far I've come.
+          I think this project serves as a good benchmark and showcases the progress I've made recently.
         </p>
       </div>
       <div className="projectButtons">
@@ -52,7 +51,7 @@ function Projects() {
       />
       <div className="projBox">
         <p className="projectDescriptionMobile">
-          My first project using APIs and React. 'Surfs Up San Diego', provides
+          My first project using an API and React. 'Surfs Up San Diego', provides
           surf data for local beaches in San Diego.
         </p>
         <p className="projectDescription1">
@@ -95,7 +94,7 @@ function Projects() {
       />
       <div className="projBox">
         <p className="projectDescriptionMobile">
-          Takes user input to provide an estimated BMI, also provides caloric
+          An Angular project that takes user input to determine caloric
           estimates for weight adjustment goals.
         </p>
         <p className="projectDescription1">
@@ -137,13 +136,12 @@ function Projects() {
       />
       <div className="projBox">
         <p className="projectDescriptionMobile">
-          A workout planner for users to create custom workouts with exercises,
-          repetitions and set schemes.
+          A General Assembly group project built using Mongoose, Express, Node
+          and React. Implements full CRUD functionality.
         </p>
         <p className="projectDescription1">
-          My first large group project and third project at General Assembly.
-          This project incorporates a fully functional back and front end. My
-          biggest take away from this project was learning how to work with
+          First group project and third project at General Assembly.
+          This project incorporates a fully functional back and front end. Biggest take away from this project was learning how to work with
           other developers on a larger project.
         </p>
       </div>

@@ -9,7 +9,7 @@ function Projects() {
       />
       <div className="projBox">
         <p className="projectDescriptionMobile">
-          My first project and orignal portfolio. Built using only HTML, CSS,
+          My first project at General Assembly and orignal portfolio. Built using only HTML, CSS,
           and JavaScript.
         </p>
         <p className="projectDescription1">
@@ -58,8 +58,8 @@ function Projects() {
         <p className="projectDescription1">
           This app is designed to show updated surf conditions for my favorite
           beaches in San Diego. The Surfline API I was using wasn't very user
-          friendly so the displayed information was a bit limited. Most proud of
-          the clean design and animated background.
+          friendly so the displayed information was a bit limited. Focused on a
+          clean design and animated background.
         </p>
       </div>
       <div className="projectButtons">
@@ -100,8 +100,8 @@ function Projects() {
         </p>
         <p className="projectDescription1">
           My first project built with Angular. This app is designed to calculate
-          an individual’s BMI give user-input and calculate optimal caloric
-          deficit to lose weight at the user's desired pace.
+          an individual’s BMI given user-input and calculate optimal caloric
+          deficit to lose weight or surplus to gain weight, at the set pace of 1 pound increase / decrease a week.
         </p>
       </div>
       <div className="projectButtons">

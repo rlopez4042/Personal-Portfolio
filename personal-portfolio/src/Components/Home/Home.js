@@ -10,8 +10,8 @@ function Home() {
         Currently enrolled at General Assembly, living in San Diego, California.
       </p>
       <p className="summaryMobile">
-        I'm a decorated Marine Corps veteran and interdisciplinary software
-        engineer, currently enrolled at General Assembly! Check out some of my
+        A decorated Marine Corps veteran and interdisciplinary software
+        engineer, currently enrolled at General Assembly. Check out some of my
         projects below:
       </p>
     </div>

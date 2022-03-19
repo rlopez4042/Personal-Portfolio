@@ -3,9 +3,8 @@ function AboutMe() {
     <div>
       <p className="intro">
         My name is Robert Lopez and I'm currently located in San Diego,
-        California. I'm a decorated transitioning service member with five years
-        comprehensive ground combat intelligence analyst experience looking to
-        launch a career in software development.
+        California. I'm a goal-oriented transitioning service member with five years
+        comprehensive ground combat intelligence analyst experience.
       </p>
       <p className="body">
         I recently graduated from San Diego Mesa College with an Associates in
@@ -15,7 +14,7 @@ function AboutMe() {
         Assembly.
       </p>
       <p className="ending">
-        I'm eager to launch a career in software development. If you'd like to
+        I'm eager to further my career in software development. If you'd like to
         learn a little more about me, I've linked a copy of my updated resume in
         the top right.
       </p>

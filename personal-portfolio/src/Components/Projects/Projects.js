@@ -207,7 +207,7 @@ function Projects() {
           target="_blank"
         >
           <button className="button-3" role="button">
-            Our Code{" "}
+            My Code{" "}
           </button>
         </a>
       </div>

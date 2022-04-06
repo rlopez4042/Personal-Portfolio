@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio/static/css/main.9ace5285.css",
-    "main.js": "/Personal-Portfolio/static/js/main.6ebb8a0f.js",
+    "main.js": "/Personal-Portfolio/static/js/main.b928e382.js",
     "static/media/ThirdProject.jpg": "/Personal-Portfolio/static/media/ThirdProject.b4d24b29f73997c7d45f.jpg",
     "static/media/Secondproject.png": "/Personal-Portfolio/static/media/Secondproject.274dd6f8aaa26979df77.png",
     "static/media/jsLogo.png": "/Personal-Portfolio/static/media/jsLogo.cae65a84867e9d6ad7bf.png",
+    "static/media/Project4GA.png": "/Personal-Portfolio/static/media/Project4GA.a5a147da79abdb9f337b.png",
     "static/media/mongoDB.png": "/Personal-Portfolio/static/media/mongoDB.b5c29897958a5ea65897.png",
     "static/media/java-logo-1.png": "/Personal-Portfolio/static/media/java-logo-1.fdabd4e11f1235e4e8e0.png",
     "static/media/Project3GA.png": "/Personal-Portfolio/static/media/Project3GA.3ef58139f9064496d65f.png",
@@ -15,10 +16,10 @@
     "static/media/Python.webp": "/Personal-Portfolio/static/media/Python.3e8bac2cb29fa59e378c.webp",
     "index.html": "/Personal-Portfolio/index.html",
     "main.9ace5285.css.map": "/Personal-Portfolio/static/css/main.9ace5285.css.map",
-    "main.6ebb8a0f.js.map": "/Personal-Portfolio/static/js/main.6ebb8a0f.js.map"
+    "main.b928e382.js.map": "/Personal-Portfolio/static/js/main.b928e382.js.map"
   },
   "entrypoints": [
     "static/css/main.9ace5285.css",
-    "static/js/main.6ebb8a0f.js"
+    "static/js/main.b928e382.js"
   ]
 }

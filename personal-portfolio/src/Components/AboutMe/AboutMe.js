@@ -3,15 +3,14 @@ function AboutMe() {
     <div>
       <p className="intro">
         My name is Robert Lopez and I'm currently located in San Diego,
-        California. I'm a goal-oriented transitioning service member with five years
-        comprehensive ground combat intelligence analyst experience.
+        California. I'm a goal-oriented transitioning service member with five
+        years comprehensive ground combat intelligence analyst experience.
       </p>
       <p className="body">
         I recently graduated from San Diego Mesa College with an Associates in
-        Science, majoring in Computer Science, and aim to continue my education
-        at San Diego State University starting in the Fall of 2022. I'm
-        currently enrolled in a Software Engineering Immersive course at General
-        Assembly.
+        Science, majoring in Computer Science, and completed General Assembly's
+        Software Engineering Immersive program. I aim to continue my education
+        at San Diego State University starting in the Fall of 2022. 
       </p>
       <p className="ending">
         I'm eager to further my career in software development. If you'd like to
@@ -95,7 +94,6 @@ function AboutMe() {
             alt=""
           />
         </li>
-
       </ul>
     </div>
   );

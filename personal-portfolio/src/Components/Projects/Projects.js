@@ -9,13 +9,14 @@ function Projects() {
       />
       <div className="projBox">
         <p className="projectDescriptionMobile">
-          My first project at General Assembly and original portfolio. Built using mostly HTML, CSS,
-          and JavaScript.
+          My first project at General Assembly and original portfolio. Built
+          using mostly HTML, CSS, and JavaScript.
         </p>
         <p className="projectDescription1">
-          The first version of my personal portfolio, built using HTML, CSS, and JavaScript. I
-          decided to keep my original portfolio in-tact instead of upgrading it.
-          I think this project serves as a good benchmark and showcases the progress I've made recently.
+          The first version of my personal portfolio, built using HTML, CSS, and
+          JavaScript. I decided to keep my original portfolio in-tact instead of
+          upgrading it. I think this project serves as a good benchmark and
+          showcases the progress I've made recently.
         </p>
       </div>
       <div className="projectButtons">
@@ -51,8 +52,8 @@ function Projects() {
       />
       <div className="projBox">
         <p className="projectDescriptionMobile">
-          My first project using an API and React. 'Surfs Up San Diego', provides
-          surf data for local beaches in San Diego.
+          My first project using an API and React. 'Surfs Up San Diego',
+          provides surf data for local beaches in San Diego.
         </p>
         <p className="projectDescription1">
           This app is designed to show updated surf conditions for my favorite
@@ -100,7 +101,8 @@ function Projects() {
         <p className="projectDescription1">
           My first project built with Angular. This app is designed to calculate
           an individual’s BMI given user-input and calculate optimal caloric
-          deficit to lose weight or surplus to gain weight, at the set pace of 1 pound increase / decrease a week.
+          deficit to lose weight or surplus to gain weight, at the set pace of 1
+          pound increase / decrease a week.
         </p>
       </div>
       <div className="projectButtons">
@@ -140,9 +142,10 @@ function Projects() {
           and React. Implements full CRUD functionality.
         </p>
         <p className="projectDescription1">
-          First group project and third project at General Assembly.
-          This project incorporates a fully functional back and front end. Biggest take away from this project was learning how to work with
-          other developers on a larger project.
+          First group project and third project at General Assembly. This
+          project incorporates a fully functional back and front end. Biggest
+          take away from this project was learning how to work with other
+          developers on a larger project.
         </p>
       </div>
       <div className="projectButtons">
@@ -168,12 +171,57 @@ function Projects() {
     </div>
   );
 
+  let fifthProject = (
+    <div id="container">
+      <p className="date">20220405</p>
+      <img
+        className="projectImage"
+        src={require("../../Images/Project4GA.png")}
+        alt=""
+      />
+      <div className="projBox">
+        <p className="projectDescriptionMobile">
+          My final project at General Assembly. A full-stack application that
+          implements both user authentication and user authorization.
+        </p>
+        <p className="projectDescription1">
+          Buzz-Kill is a project management / bug tracker website, for
+          professional and enthusiast programmers. This project was built using
+          Mongoose, Express, Node and React and implements full CRUD
+          functionality.
+        </p>
+      </div>
+      <div className="projectButtons">
+        <a
+          href="https://rlopez4042.github.io/buzz-kill-client/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <button className="button-3" role="button">
+            Website
+          </button>
+        </a>
+        <a
+          href="https://github.com/rlopez4042/buzz-kill-client"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <button className="button-3" role="button">
+            Our Code{" "}
+          </button>
+        </a>
+      </div>
+    </div>
+  );
+
   return (
     <div className="projects">
       <h1 className="projectsTitle">
         <span className="number">0.1</span> Projects<hr className="new4"></hr>
       </h1>
       <section className="projectSubText"></section>
+      <h2 className="projectTitle">Workout Planner</h2>
+      <div className="projectSpacing">{fifthProject}</div>
       <h2 className="projectTitle">My First Portfolio</h2>
       <div className="projectSpacing">{firstProject}</div>
       <h2 className="projectTitle">Surfs Up San Diego</h2>

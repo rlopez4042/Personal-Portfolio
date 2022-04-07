@@ -220,7 +220,7 @@ function Projects() {
         <span className="number">0.1</span> Projects<hr className="new4"></hr>
       </h1>
       <section className="projectSubText"></section>
-      <h2 className="projectTitle">Workout Planner</h2>
+      <h2 className="projectTitle">Buzz-Kill</h2>
       <div className="projectSpacing">{fifthProject}</div>
       <h2 className="projectTitle">My First Portfolio</h2>
       <div className="projectSpacing">{firstProject}</div>

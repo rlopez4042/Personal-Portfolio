@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.9ace5285.css",
+    "main.css": "/Personal-Portfolio/static/css/main.3610d801.css",
     "main.js": "/Personal-Portfolio/static/js/main.baefdb3e.js",
     "static/media/ThirdProject.jpg": "/Personal-Portfolio/static/media/ThirdProject.b4d24b29f73997c7d45f.jpg",
     "static/media/Secondproject.png": "/Personal-Portfolio/static/media/Secondproject.274dd6f8aaa26979df77.png",
@@ -15,11 +15,11 @@
     "static/media/github-icon-256.png": "/Personal-Portfolio/static/media/github-icon-256.9a63b3e3bec2d37f39de.png",
     "static/media/Python.webp": "/Personal-Portfolio/static/media/Python.3e8bac2cb29fa59e378c.webp",
     "index.html": "/Personal-Portfolio/index.html",
-    "main.9ace5285.css.map": "/Personal-Portfolio/static/css/main.9ace5285.css.map",
+    "main.3610d801.css.map": "/Personal-Portfolio/static/css/main.3610d801.css.map",
     "main.baefdb3e.js.map": "/Personal-Portfolio/static/js/main.baefdb3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ace5285.css",
+    "static/css/main.3610d801.css",
     "static/js/main.baefdb3e.js"
   ]
 }

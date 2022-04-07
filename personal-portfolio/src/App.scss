@@ -189,6 +189,8 @@ color: white;
   padding-bottom: 3rem;
 }
 .projectImage {
+  border-radius: 12px;
+
   width: 380px;
   height: 210px;
   border-left-style: solid;
@@ -206,6 +208,8 @@ color: white;
   border-bottom-style: solid;
   border-right-style: solid;
   border-color: white;
+  border-radius: 12px;
+
 }
 .projectDescriptionMobile {
   position: relative;
@@ -213,6 +217,8 @@ color: white;
   line-height: 1.4rem;
   margin: 0.6rem;
   text-align: left;
+  border-radius: 12px;
+
 }
 .projectDescription1 {
   font-size: 0.9rem;

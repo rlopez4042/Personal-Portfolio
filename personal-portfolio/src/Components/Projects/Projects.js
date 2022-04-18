@@ -222,10 +222,10 @@ function Projects() {
       <section className="projectSubText"></section>
       <h2 className="projectTitle">Buzz-Kill</h2>
       <div className="projectSpacing">{fifthProject}</div>
-      <h2 className="projectTitle">My First Portfolio</h2>
-      <div className="projectSpacing">{firstProject}</div>
       <h2 className="projectTitle">Surfs Up San Diego</h2>
       <div className="projectSpacing">{secondProject}</div>
+      <h2 className="projectTitle">My First Portfolio</h2>
+      <div className="projectSpacing">{firstProject}</div>
       <h2 className="projectTitle">Calorie Calculator</h2>
       <div className="projectSpacing">{thirdProject}</div>
       <h2 className="projectTitle">Workout Planner</h2>

@@ -10,12 +10,12 @@ function AboutMe() {
         I recently graduated from San Diego Mesa College with an Associates in
         Science, majoring in Computer Science, and completed General Assembly's
         Software Engineering Immersive program. I aim to continue my education
-        at San Diego State University starting in the Fall of 2022. 
+        at San Diego State University starting in the Fall of 2022.
       </p>
       <p className="ending">
-        I'm eager to further my career in software development. If you'd like to
-        learn a little more about me, I've linked a copy of my updated resume in
-        the top right.
+        I'm currently a Junior Software Developer at InnovaSystems International and if you'd
+        like to learn a little more about me, I've linked a copy of my updated
+        resume in the top right.
       </p>
       <p id="forList">Skills include:</p>
       <ul className="aboutMeLogoList">

@@ -2,7 +2,7 @@ function AboutMe() {
   let aboutMe = (
     <div>
 <p className="intro">
-  A Marine Corps veteran and Software Engineer based in San Diego, California. Currently working at Cydecor on DoD enterprise systems and pursuing a Bachelor’s degree in Computer Science at San Diego State University.
+  My name is Robert Lopez and I’m based in San Diego, California. I’m a Software Engineer with a background in the Marine Corps and experience building and maintaining production systems.
 </p>
 
 <p className="body">

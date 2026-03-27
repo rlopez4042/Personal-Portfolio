@@ -1,22 +1,17 @@
 function AboutMe() {
   let aboutMe = (
     <div>
-      <p className="intro">
-        My name is Robert Lopez and I'm currently located in San Diego,
-        California. I'm a goal-oriented transitioning service member with five
-        years comprehensive ground combat intelligence analyst experience.
-      </p>
-      <p className="body">
-        I recently graduated from San Diego Mesa College with an Associates in
-        Science, majoring in Computer Science, and completed General Assembly's
-        Software Engineering Immersive program. I aim to continue my education
-        at San Diego State University starting in the Fall of 2022.
-      </p>
-      <p className="ending">
-        I'm currently a Junior Software Developer at InnovaSystems International and if you'd
-        like to learn a little more about me, I've linked a copy of my updated
-        resume in the top right.
-      </p>
+<p className="intro">
+  A Marine Corps veteran and Software Engineer based in San Diego, California. Currently working at Cydecor on DoD enterprise systems and pursuing a Bachelor’s degree in Computer Science at San Diego State University.
+</p>
+
+<p className="body">
+  I hold an Associate of Science in Computer Science from San Diego Mesa College and am currently pursuing a Bachelor’s degree in Computer Science at San Diego State University. My professional experience includes developing full-stack applications using React, .NET, and API-driven architectures in enterprise environments.
+</p>
+
+<p className="ending">
+  I’m currently a Software Engineer working on DoD enterprise systems. If you’d like to learn more, you can view my resume using the link in the top right.
+</p>
       <p id="forList">Skills include:</p>
       <ul className="aboutMeLogoList">
         <li className="aboutMeLogo">
